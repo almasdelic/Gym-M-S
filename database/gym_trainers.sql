@@ -29,7 +29,7 @@ CREATE TABLE `trainers` (
   `email` varchar(45) NOT NULL,
   `phone_number` varchar(45) NOT NULL,
   PRIMARY KEY (`trainer_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,6 @@ CREATE TABLE `trainers` (
 
 LOCK TABLES `trainers` WRITE;
 /*!40000 ALTER TABLE `trainers` DISABLE KEYS */;
-INSERT INTO `trainers` VALUES (1,'Trainer1','LastName1','trainer1@example.com','111-111-1111'),(2,'Trainer2','LastName2','trainer2@example.com','222-222-2222'),(3,'Trainer3','LastName3','trainer3@example.com','333-333-3333'),(4,'Trainer4','LastName4','trainer4@example.com','444-444-4444'),(5,'Trainer5','LastName5','trainer5@example.com','555-555-5555'),(6,'Sasa','Sasic','sasasasic@gmail.com','21343223'),(7,'Milos','Milic','milos@gmail.com','23112321332');
 /*!40000 ALTER TABLE `trainers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-08-29 18:31:05
+-- Dump completed on 2023-12-10 15:50:07

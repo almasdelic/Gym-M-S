@@ -69,6 +69,10 @@ if ($_SERVER ['REQUEST_METHOD'] == "POST") {
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-image: url('img/gym.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
         }
 
         form {
